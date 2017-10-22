@@ -1,4 +1,4 @@
-"""Monitor temperature and humidity (DHT22) and send results to Thingspeak."""
+"""Monitor temperature and humidity (DHT22) and send results to ThingSpeak."""
 from machine import Pin
 from utime import sleep_ms, ticks_ms, ticks_diff
 import urequests
