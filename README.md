@@ -1,7 +1,7 @@
 # Environment Monitor
 
 Monitors temperature and humidity using [MicroPython](http://micropython.org/)
-on an [ESP8266](https://en.wikipedia.org/wiki/ESP8266) and a  [DHT22](https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf)
+on an [ESP8266](https://en.wikipedia.org/wiki/ESP8266) and a  [RHT03 (DHT22)](https://cdn.sparkfun.com/datasheets/Sensors/Weather/RHT03.pdf)
 sensor and sends the results to [ThingSpeak](https://thingspeak.com).
 
 ## Usage
