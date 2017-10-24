@@ -4,6 +4,11 @@ Monitors temperature and humidity using [MicroPython](http://micropython.org/)
 on an [ESP8266](https://en.wikipedia.org/wiki/ESP8266) and a  [RHT03 (DHT22)](https://cdn.sparkfun.com/datasheets/Sensors/Weather/RHT03.pdf)
 sensor and sends the results to [ThingSpeak](https://thingspeak.com).
 
+## Circuit
+
+The following circuit diagram shows how I connected the sensor to a NodeMcu ESP8266 development board:
+
+![Circuit diagram](https://github.com/chrisb2/environment/raw/master/environment-circuit.png "Circuit Diagram")
 ## Usage
 
 Configure a ThingSpeak channel something like:
